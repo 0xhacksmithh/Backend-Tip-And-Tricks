@@ -1,0 +1,21 @@
+{
+  "name": "production_grade_session_based_authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-redis": "^9.0.0",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "redis": "^5.11.0",
+    "uuid": "^13.0.0"
+  }
+}

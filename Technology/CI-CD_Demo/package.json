@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --watch src/index.js",
+    "run": "node --watch src/server.js",
+    "test": "node --test",
     "lint": "eslint ."
   },
   "keywords": [],

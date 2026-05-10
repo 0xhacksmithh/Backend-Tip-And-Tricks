@@ -1,0 +1,14 @@
+body {
+  font-family: Arial;
+  padding: 40px;
+}
+
+.container {
+  width: 300px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
